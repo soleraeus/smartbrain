@@ -1,0 +1,8 @@
+img{
+    max-width: 200px;
+    transition: all 1.5s;
+}
+
+img:hover{
+    transform: rotateY(360deg);
+}
