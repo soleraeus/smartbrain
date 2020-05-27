@@ -3,6 +3,8 @@ import './App.css';
 
 import Navigation from './Components/Navigation/Navigation';
 import Logo from './Components/Logo/Logo';
+import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
+import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
 
 class App extends Component {
   render(){
@@ -12,10 +14,11 @@ class App extends Component {
       <Logo />
       <Navigation />
       </header>
+      <section>
+      <ImageLinkForm />
+      <FaceRecognition />
+      </section>
       </>
-      
-      // <ImageLinkForm />
-      // <FaceRecognition />
     )
   }
 }

@@ -1,0 +1,22 @@
+section{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+section>p{
+    font-size: 1.2rem;
+}
+
+input{
+    width: 70vw;
+    margin-bottom: 2.5vh;
+}
+
+button{
+    width: 30vw;
+    background-color: rgb(98, 60, 136);
+    border-radius: 15px;
+    font-size: 1rem;
+    color: white;
+    padding: 1vh 1vw;
+}
