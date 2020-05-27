@@ -1,0 +1,17 @@
+.Rank{
+    text-align: center;
+    margin-top: 5vh;
+    color: white;
+
+}
+
+.Rank p{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.Rank :last-child{
+    font-weight: bold;
+    font-size: 3rem;
+}

@@ -1,9 +1,9 @@
-section{
+.form{
     text-align: center;
     padding-top: 2vh;
 }
 
-section>p{
+.form>p{
     font-size: 1.2rem;
 }
 
