@@ -27,4 +27,5 @@ nav p:hover{
 header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.5vh;
 }

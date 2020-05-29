@@ -28,9 +28,9 @@ class App extends Component {
 
   onBtnSubmit = ()=>{
     this.setState({ImageUrl: this.state.input});
-    FaceDetect.models.predict("a403429f2ddf4b49b307e318f00e528b", "https://samples.clarifai.com/face-det.jpg").then(
+    FaceDetect.models.predict("a403429f2ddf4b49b307e318f00e528b", this.state.input).then(
     function(response) {
-      console.log(response);
+      console.log(response.outputs[0].data.regions[0].region_info.bounding_box);
     },
     function(err) {
       // there was an error
