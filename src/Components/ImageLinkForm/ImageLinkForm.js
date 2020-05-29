@@ -1,14 +1,14 @@
 import React from 'react';
 import './ImageLinkForm.css'
 
-const ImageLinkForm = () =>{
+const ImageLinkForm = ({onInputChange, onBtnSubmit}) =>{
     return (
         <React.Fragment>
         <section className='form'>
             <p>{'This Magic Brain will detect faces in your pictures. Give it a try!'}</p>
             <section>
-            <input type='text' /><br />
-            <button>Detect</button>
+            <input type='text' onChange={onInputChange} /><br />
+            <button onClick={onBtnSubmit}>Detect</button>
             </section>
         </section>
         </ React.Fragment>

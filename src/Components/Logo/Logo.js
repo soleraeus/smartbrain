@@ -3,7 +3,7 @@ import './Logo.css';
 
 const Logo = () =>{
     return(
-        <img src='../filigrane_blanc.png' alt='logo' />
+        <img src='../filigrane_blanc.png' alt='logo' id='logo' />
     )
 }
 

@@ -1,0 +1,7 @@
+.FaceRecognition{
+    text-align: center;
+}
+
+.FaceRecognition>img{
+    height: 62vh;
+}
