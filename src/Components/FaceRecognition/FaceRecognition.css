@@ -1,9 +1,16 @@
 .FaceRecognition{
+    position: relative;;
     text-align: center;
     margin-top: 0.5vh;
 }
 
+.bounding-box{
+    position: absolute;
+    box-shadow: 0 0 0 3px #254aee inset;
+}
+
 .FaceRecognition>img{
+    position: relative;
     height: auto;
     width: 800px;
 }
